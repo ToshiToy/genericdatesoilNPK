@@ -22,7 +22,15 @@
 
 
 Запуск программы:
+# Создать виртуальное окружение
+python3 -m venv .venv
+# Активировать
+source .venv/bin/activate
+# Установить зависимости
+pip install -r requirements.txt
 pip install pandas numpy matplotlib
+pip install pandas numpy matplotlib scikit-learn jupyter ipywidgets
+# Запустить
 python main.py
 
 

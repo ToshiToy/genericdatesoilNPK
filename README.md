@@ -27,14 +27,23 @@
 # Запуск программы
 # 1) Создать виртуальное окружение
 python3 -m venv .venv
+
 # 2) Активировать
 source .venv/bin/activate
+
 # 3) Установить зависимости
 pip install -r requirements.txt
+
 pip install pandas numpy matplotlib
+
 pip install pandas numpy matplotlib scikit-learn jupyter ipywidgets
+
+pip install jupyter ipywidgets matplotlib pandas numpy scikit-learn
+
 # 4) Запустить
 python main.py
+
+jupyter notebook
 
 # Результат проекта: 
 Выгружается в папку src/results/*.png
